@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .card-box{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.card1{
+    width: 60%;
+    background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+}
+
+.card2{
+    background: url("https://images.unsplash.com/photo-1537095671214-8abf406aa8fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+
+}
+.card3{
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80");
+}
+.card4{
+    background: url("https://plus.unsplash.com/premium_photo-1661964095477-fe68b487f700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+}
+.card5{
+    background: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80");
+}
+.card1,.card2,.card3,.card4,.card5{
+    width: 6%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 0px 0px 0px 20px;
+    transition: all ease 1.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card1 span{
+    color: rgb(255, 247, 2);
+    text-align: start;
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700px;
+    width: 1000px;
+}
+.card2 span{
+    color: rgb(10, 255, 133);
+    text-align: start;
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700px;
+    width: 1000px;
+}
+.card3 span{
+    color: rgb(1, 255, 204);
+    text-align: start;
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700px;
+    width: 1000px;
+}
+.card4 span{
+    color: rgb(2, 0, 4);
+    text-align: start;
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700px;
+    width: 1000px;
+}
+.card5 span{
+    color: rgb(21, 244, 229);
+    text-align: start;
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700px;
+    width: 1000px;
+}
+.card1{
+    width: 60%;
+
+}
